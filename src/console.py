@@ -1,4 +1,4 @@
-from rss_mcp_server import get_latest_news, read_news
+from news import get_latest_news, read_news
 from chat_session import ChatSession
 from gemini_client import GeminiClient
 from rag_memory import RAGMemory
@@ -50,3 +50,4 @@ def handle_user(user_input: str):
 while True:
     user_input = input("User: ")
     print("Bot:", handle_user(user_input))
+
