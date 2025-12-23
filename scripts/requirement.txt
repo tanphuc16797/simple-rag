@@ -1,0 +1,16 @@
+# ==== Core ====
+python-dotenv==1.0.1
+requests>=2.31.0
+
+# ==== RSS & Web Parsing ====
+feedparser==6.0.11
+beautifulsoup4==4.12.3
+
+# ==== Fast MCP ====
+fastmcp>=0.3.2
+
+# ==== LLM: Google Gemini ====
+google-generativeai>=0.8.3
+
+# ==== RAG Memory ====
+sentence-transformers>=3.2.0
